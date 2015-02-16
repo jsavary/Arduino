@@ -34,5 +34,5 @@ void loop() {
   Serial.println(buttonState3);
   
   //delays for human read.
-  delay(200);
+  delay(500);
 }
