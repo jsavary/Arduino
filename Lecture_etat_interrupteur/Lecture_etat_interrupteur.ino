@@ -36,4 +36,3 @@ void loop() {
   //delays for human read.
   delay(200);
 }
-
