@@ -1,3 +1,4 @@
+//define 
 int bouton1 = 50;
 int bouton2 = 51;
 int bouton3 = 52;
@@ -16,11 +17,12 @@ void setup() {
 
 void loop() {
   
-  // print out the state of the button1:
+
  int buttonState1 = digitalRead(bouton1);
  int buttonState2 = digitalRead(bouton2);
  int buttonState3 = digitalRead(bouton3);
   
+  // print out the state of buttons  
   Serial.print("Bouton1="); 
   Serial.print("\t");
   Serial.println(buttonState1);
@@ -30,6 +32,8 @@ void loop() {
   Serial.print("Bouton3="); 
   Serial.print("\t");
   Serial.println(buttonState3);
+  
+  //delays for human read.
   delay(200);
 }
 
